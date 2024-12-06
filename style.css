@@ -33,13 +33,15 @@ header ul a {
     background-color: #1f2937;
     padding: 125px 15vw;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
-.hero .text-contnet {
-    width: 600px;
+.hero .text-content {
+    width: 450px;
 }
 
 .hero h1 {
@@ -60,8 +62,8 @@ header ul a {
     align-items: center;
     justify-content: center;
     background-color: #515151;
-    min-width: 600px;
-    max-width: 1000px;
+    width: 450px;
+    height: 200px;
 }
 
 .hero button {
@@ -72,4 +74,37 @@ header ul a {
     color: #f9faf8;
     border: 0px;
     border-radius: 5px;
+}
+
+.gallery {
+    margin: 40px 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.gallery .gallery-components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.gallery .gallery-components .component {
+    width: 150px;
+}
+
+.gallery .gallery-components img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #38a1f6;
+    border-radius: 15px;
 }
