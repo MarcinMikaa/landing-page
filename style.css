@@ -29,6 +29,13 @@ header ul a {
     color: #e5e7eb;
 }
 
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .hero {
     background-color: #1f2937;
     padding: 125px 10vw;
@@ -73,7 +80,7 @@ header ul a {
     padding: 8px 30px;
     color: #f9faf8;
     border: 0px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .gallery {
@@ -109,6 +116,10 @@ header ul a {
     border-radius: 15px;
 }
 
+.gallery .gallery-components p {
+    margin: 0;
+}
+
 .quote {
     background-color: #e5e7eb;
     padding: 100px 10vw;
@@ -132,4 +143,49 @@ header ul a {
     text-align: end;
     font-weight: 700;
     font-size: 22px;
+    margin: 0;
+}
+
+.remainder {
+    background-color: #3882f6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 15vw;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.remainder .text-content h1 {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.remainder .text-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.remainder button {
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 30px;
+    margin: 0 20px;
+    color: #f9faf8;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+}
+
+footer p {
+    color: #f9faf8;
+    margin: 0;
+    padding: 40px;
 }
